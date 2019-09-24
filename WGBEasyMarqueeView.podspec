@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WGBEasyMarqueeView'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of WGBEasyMarqueeView.'
+  s.summary          = '一个简易的OC版本跑马灯功能组件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
