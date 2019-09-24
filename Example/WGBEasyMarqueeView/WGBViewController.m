@@ -8,6 +8,7 @@
 
 #import "WGBViewController.h"
 #import "WGBDemoViewController.h"
+#import "HPAutoScorllTextLabel.h"
 
 
 @interface WGBViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -31,7 +32,29 @@
         // Fallback on earlier versions
         self.view.backgroundColor = [UIColor whiteColor];
     }
-    self.tableView.tableFooterView = [UIView new];
+    
+    CGFloat screenW = UIScreen.mainScreen.bounds.size.width;
+    UIView *footer = [[UIView alloc] initWithFrame:CGRectMake(0, 0, screenW, 35)];
+    if (@available(iOS 13.0, *)) {
+        footer.backgroundColor = [UIColor systemBackgroundColor];
+    } else {
+        // Fallback on earlier versions
+        footer.backgroundColor = [UIColor cyanColor];
+    }
+    HPAutoScorllTextLabel *label = [[HPAutoScorllTextLabel alloc] initWithFrame:CGRectMake(15, 0, screenW - 30, 35)];
+    [footer addSubview: label];
+    label.style = HPTextCycleStyleAlways;
+    if (@available(iOS 13.0, *)) {
+        label.textColor = [UIColor labelColor];
+    } else {
+        // Fallback on earlier versions
+        label.textColor = [UIColor orangeColor];
+    }
+    label.text = @"`HPAutoScorllTextLabel`这个组件感觉不够优雅(需要手动管理定时器的生命周期)，所以才决定重写了`JXMarqueeView`的OC版";
+    label.font = [UIFont systemFontOfSize:18];
+    [label start];
+    
+    self.tableView.tableFooterView = footer;
     [self.tableView reloadData];
 }
 
@@ -41,7 +64,7 @@
         @"WGBEasyMarqueeTypeLeft",
         @"WGBEasyMarqueeTypeRight",
         @"WGBEasyMarqueeTypeReverse",
-        @"自定义View"
+        @"自定义View",
     ];
 }
 

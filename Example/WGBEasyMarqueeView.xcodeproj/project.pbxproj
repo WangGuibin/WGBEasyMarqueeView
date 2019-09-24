@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04084D33233A045C00D7505B /* WGBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084D32233A045C00D7505B /* WGBDemoViewController.m */; };
 		04084D36233A056F00D7505B /* WGBCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084D35233A056F00D7505B /* WGBCustomView.m */; };
+		04084D3B233A1BAD00D7505B /* HPAutoScorllTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084D39233A1BAD00D7505B /* HPAutoScorllTextLabel.m */; };
 		0B82CBA2922B273562F624AD /* Pods_WGBEasyMarqueeView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7768276E3008DA4C202B /* Pods_WGBEasyMarqueeView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -43,6 +44,8 @@
 		04084D32233A045C00D7505B /* WGBDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGBDemoViewController.m; sourceTree = "<group>"; };
 		04084D34233A056F00D7505B /* WGBCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGBCustomView.h; sourceTree = "<group>"; };
 		04084D35233A056F00D7505B /* WGBCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGBCustomView.m; sourceTree = "<group>"; };
+		04084D39233A1BAD00D7505B /* HPAutoScorllTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPAutoScorllTextLabel.m; sourceTree = "<group>"; };
+		04084D3A233A1BAD00D7505B /* HPAutoScorllTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPAutoScorllTextLabel.h; sourceTree = "<group>"; };
 		0526C7B27CC771138F42B86A /* Pods-WGBEasyMarqueeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBEasyMarqueeView_Example.release.xcconfig"; path = "Target Support Files/Pods-WGBEasyMarqueeView_Example/Pods-WGBEasyMarqueeView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		21405CB6D553A79FD1A82C51 /* Pods-WGBEasyMarqueeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBEasyMarqueeView_Tests.release.xcconfig"; path = "Target Support Files/Pods-WGBEasyMarqueeView_Tests/Pods-WGBEasyMarqueeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		29312DDC192FDCBE6DC78D0D /* Pods-WGBEasyMarqueeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBEasyMarqueeView_Example.debug.xcconfig"; path = "Target Support Files/Pods-WGBEasyMarqueeView_Example/Pods-WGBEasyMarqueeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04084D38233A1BAD00D7505B /* HPAutoScorllTextLabel */ = {
+			isa = PBXGroup;
+			children = (
+				04084D3A233A1BAD00D7505B /* HPAutoScorllTextLabel.h */,
+				04084D39233A1BAD00D7505B /* HPAutoScorllTextLabel.m */,
+			);
+			path = HPAutoScorllTextLabel;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +150,7 @@
 		6003F593195388D20070C39A /* Example for WGBEasyMarqueeView */ = {
 			isa = PBXGroup;
 			children = (
+				04084D38233A1BAD00D7505B /* HPAutoScorllTextLabel */,
 				6003F59C195388D20070C39A /* WGBAppDelegate.h */,
 				6003F59D195388D20070C39A /* WGBAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -377,6 +390,7 @@
 				6003F59E195388D20070C39A /* WGBAppDelegate.m in Sources */,
 				04084D36233A056F00D7505B /* WGBCustomView.m in Sources */,
 				6003F5A7195388D20070C39A /* WGBViewController.m in Sources */,
+				04084D3B233A1BAD00D7505B /* HPAutoScorllTextLabel.m in Sources */,
 				04084D33233A045C00D7505B /* WGBDemoViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
