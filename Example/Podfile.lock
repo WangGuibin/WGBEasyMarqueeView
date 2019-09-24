@@ -1,0 +1,16 @@
+PODS:
+  - WGBEasyMarqueeView (1.0.0)
+
+DEPENDENCIES:
+  - WGBEasyMarqueeView (from `../`)
+
+EXTERNAL SOURCES:
+  WGBEasyMarqueeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WGBEasyMarqueeView: 414a615c62f119cadec6f99226245e2f5dbcf34c
+
+PODFILE CHECKSUM: 1f77a6a44e482a88217dd8d61411b25fb3e0c516
+
+COCOAPODS: 1.7.5

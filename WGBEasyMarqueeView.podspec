@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WGBEasyMarqueeView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of WGBEasyMarqueeView.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Wangguibin/WGBEasyMarqueeView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Wangguibin' => 'guchengye153@gmail.com' }
+  s.author           = { 'Wangguibin' => '864562082@qq.com' }
   s.source           = { :git => 'https://github.com/Wangguibin/WGBEasyMarqueeView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

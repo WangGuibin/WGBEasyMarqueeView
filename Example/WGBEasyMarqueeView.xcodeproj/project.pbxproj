@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04084D33233A045C00D7505B /* WGBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084D32233A045C00D7505B /* WGBDemoViewController.m */; };
+		04084D36233A056F00D7505B /* WGBCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04084D35233A056F00D7505B /* WGBCustomView.m */; };
 		0B82CBA2922B273562F624AD /* Pods_WGBEasyMarqueeView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7768276E3008DA4C202B /* Pods_WGBEasyMarqueeView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04084D31233A045C00D7505B /* WGBDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGBDemoViewController.h; sourceTree = "<group>"; };
+		04084D32233A045C00D7505B /* WGBDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGBDemoViewController.m; sourceTree = "<group>"; };
+		04084D34233A056F00D7505B /* WGBCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGBCustomView.h; sourceTree = "<group>"; };
+		04084D35233A056F00D7505B /* WGBCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGBCustomView.m; sourceTree = "<group>"; };
 		0526C7B27CC771138F42B86A /* Pods-WGBEasyMarqueeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBEasyMarqueeView_Example.release.xcconfig"; path = "Target Support Files/Pods-WGBEasyMarqueeView_Example/Pods-WGBEasyMarqueeView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		21405CB6D553A79FD1A82C51 /* Pods-WGBEasyMarqueeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBEasyMarqueeView_Tests.release.xcconfig"; path = "Target Support Files/Pods-WGBEasyMarqueeView_Tests/Pods-WGBEasyMarqueeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		29312DDC192FDCBE6DC78D0D /* Pods-WGBEasyMarqueeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBEasyMarqueeView_Example.debug.xcconfig"; path = "Target Support Files/Pods-WGBEasyMarqueeView_Example/Pods-WGBEasyMarqueeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,12 +66,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71F4BA0AC23427845CF98C27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		71F4BA0AC23427845CF98C27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA1B6C6C6DA3C9398E6D4375 /* Pods_WGBEasyMarqueeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WGBEasyMarqueeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB21131DEEBCA186322E75B9 /* WGBEasyMarqueeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WGBEasyMarqueeView.podspec; path = ../WGBEasyMarqueeView.podspec; sourceTree = "<group>"; };
+		AB21131DEEBCA186322E75B9 /* WGBEasyMarqueeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WGBEasyMarqueeView.podspec; path = ../WGBEasyMarqueeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD9F7768276E3008DA4C202B /* Pods_WGBEasyMarqueeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WGBEasyMarqueeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C708F3B7EDA7969490DB5A30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C708F3B7EDA7969490DB5A30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8071D8C1B2FA034F990A0B8 /* Pods-WGBEasyMarqueeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBEasyMarqueeView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WGBEasyMarqueeView_Tests/Pods-WGBEasyMarqueeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WGBViewController.h */,
 				6003F5A6195388D20070C39A /* WGBViewController.m */,
+				04084D31233A045C00D7505B /* WGBDemoViewController.h */,
+				04084D32233A045C00D7505B /* WGBDemoViewController.m */,
+				04084D34233A056F00D7505B /* WGBCustomView.h */,
+				04084D35233A056F00D7505B /* WGBCustomView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +203,6 @@
 				D8071D8C1B2FA034F990A0B8 /* Pods-WGBEasyMarqueeView_Tests.debug.xcconfig */,
 				21405CB6D553A79FD1A82C51 /* Pods-WGBEasyMarqueeView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,7 +375,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WGBAppDelegate.m in Sources */,
+				04084D36233A056F00D7505B /* WGBCustomView.m in Sources */,
 				6003F5A7195388D20070C39A /* WGBViewController.m in Sources */,
+				04084D33233A045C00D7505B /* WGBDemoViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
